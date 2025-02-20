@@ -1,0 +1,15 @@
+[package]
+name = "rust-sonar-report-reader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zip = "0.6.6"
+clap = "3.0.14"
+protobuf = "3.3.0"
+prost = "0.12"
+
+[build-dependencies]
+prost-build = "0.12"
